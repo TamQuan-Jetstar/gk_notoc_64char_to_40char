@@ -1,0 +1,136 @@
+NOTOC
+SPECIAL LOAD NOTIFICATION TO CAPTAIN
+EDNO 01
+FROM   FLIGHT       DATE       A/C REG
+SYD    JQ956/07     07JUN23    VH-VFY
+****************************************
+*** DANGEROUS GOODS ***
+TO  AWB      CL/DV UN/ID SUB PCS  QTY/TI
+    NR        COMP  NR   RSK
+ 
+RRR PCK IMP  CAO         POS    ULD/CODE
+CAT GRP CODE
+****************************************
+01.METHYL BUTYRATE
+EMERGENCY RESPONSE CODE 3L
+CNS          3     UN/       1    1X0.05L
+    50146633       1237                 
+    II  RFL  N           41    AKH7156JQ
+----------------------------------------
+02.PROPANETHIOLS
+EMERGENCY RESPONSE CODE 3H
+CNS          3     UN/       1    1X0.1L
+    50146633       2402                 
+    II  RFL  N           41    AKH7156JQ
+----------------------------------------
+03.2-METHYLBUTANAL
+EMERGENCY RESPONSE CODE 3L
+CNS          3     UN/       1    1X0.1L
+    50146670       3371                 
+    II  RFL  N           41    AKH7156JQ
+----------------------------------------
+04.ETHYL ISOBUTYRATE
+EMERGENCY RESPONSE CODE 3L
+CNS          3     UN/       1    1X0.1L
+    50146670       2385                 
+    II  RFL  N           41    AKH7156JQ
+----------------------------------------
+05.BUTYRALDEHYDE
+EMERGENCY RESPONSE CODE 3L
+CNS          3     UN/       1    1X0.1L
+    50146670       1129                 
+    II  RFL  N           41    AKH7156JQ
+----------------------------------------
+06.METHYL BUTYRATE
+EMERGENCY RESPONSE CODE 3L
+CNS          3     UN/       1    1X0.1L
+    50146670       1237                 
+    II  RFL  N           41    AKH7156JQ
+----------------------------------------
+07.PROPIONALDEHYDE
+EMERGENCY RESPONSE CODE 3H
+CNS          3     UN/       1    1X0.15L
+    50146633       1275                 
+    II  RFL  N           41    AKH7156JQ
+----------------------------------------
+08.TOXIC LIQUID, CORROSIVE, ORGANIC
+N.O.S.
+EMERGENCY RESPONSE CODE 6C
+CNS          6.1   UN/   8   1    1X0.05L
+    50146633       2927                 
+    II  RPB  N           41    AKH7156JQ
+----------------------------------------
+09.FURALDEHYDES
+EMERGENCY RESPONSE CODE 6F
+CNS          6.1   UN/   3   1    1X0.2L
+    50146633       1199                 
+    II  RPB  N           41    AKH7156JQ
+----------------------------------------
+10.PHENOL, SOLID
+EMERGENCY RESPONSE CODE 6L
+CNS          6.1   UN/       1    1X0.1KG
+    50146633       1671                 
+    II  RPB  N           41    AKH7156JQ
+----------------------------------------
+11.NITROSYLSULPHURIC ACID, SOLID
+EMERGENCY RESPONSE CODE 8L
+CNS          8     UN/       1    1X0.1KG
+    50146670       3456                 
+    II  RCM  N           41    AKH7156JQ
+----------------------------------------
+12.ISOBUTYRIC ACID
+EMERGENCY RESPONSE CODE 3C
+CNS          3     UN/   8   1    1X0.2L
+    50146633       2529                 
+    III RFL  N           41    AKH7156JQ
+----------------------------------------
+13.ESTERS N.O.S.
+EMERGENCY RESPONSE CODE 3L
+CNS          3     UN/       1    1X0.01L
+    50146633       3272                 
+    III RFL  N           41    AKH7156JQ
+----------------------------------------
+14.TERPINOLENE
+EMERGENCY RESPONSE CODE 3L
+CNS          3     UN/       1    1X0.01L
+    50146633       2541                 
+    III RFL  N           41    AKH7156JQ
+----------------------------------------
+15.EXTRACTS, AROMATIC, LIQUID
+EMERGENCY RESPONSE CODE 3L
+CNS          3     UN/       1    1X0.05L
+    50146633       1169                 
+    III RFL  N           41    AKH7156JQ
+****************************************
+*** OTHER SPECIAL LOAD ***
+TO  CONTENTS
+    AWB NR            PCS         QTY
+        IMP CODE         POS    ULD/CODE
+****************************************
+NIL
+****************************************
+SI EMERGENCY CONTACT +61 3 8628 3551
+01 CONSOLIDATION
+02 CONSOLIDATION
+03 CONSOLIDATION
+04 CONSOLIDATION
+05 CONSOLIDATION
+06 CONSOLIDATION
+07 CONSOLIDATION
+08 CONSOLIDATION
+09 CONSOLIDATION
+10 CONSOLIDATION
+11 CONSOLIDATION
+12 CONSOLIDATION
+13 CONSOLIDATION
+14 CONSOLIDATION
+15 CONSOLIDATION
+****************************************
+THERE IS NO EVIDENCE THAT ANY DAMAGED OR
+LEAKING PACKAGES
+CONTAINING DANGEROUS GOODS HAVE BEEN
+LOADED ON THE AIRCRAFT.
+ 
+LOADING SUPERVISOR              CAPTAIN
+KELLIELH Kellie Lamaison LH
+

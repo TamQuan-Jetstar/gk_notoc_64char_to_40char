@@ -1,0 +1,1 @@
+from notoc_parser.notoc import parse_notoc
