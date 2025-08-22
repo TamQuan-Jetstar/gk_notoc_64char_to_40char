@@ -6,9 +6,11 @@ from start import start_notoc_conversion
 
 
 def main(argv):
+    # Default to running this code in production
     if len(argv) < 2:
         env = 'prd'
     else:
+        # argument of "dev", "prd", "stg" for other environments
         env = argv[1]
 
     config = create_config(env)

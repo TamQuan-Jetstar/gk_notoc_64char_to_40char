@@ -3,7 +3,7 @@ import json
 
 
 def create_config(env: str):
-    with open(f"src/{env}.config.json", 'r', encoding='utf-8') as config_file:
+    with open(f"config_files/{env}.config.json", 'r', encoding='utf-8') as config_file:
         config_data = json.load(config_file)
 
     logger = {}
