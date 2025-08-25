@@ -3,6 +3,7 @@ import json
 
 
 def create_config(env: str):
+    # names of config files all follow the same format with "dev", "prd", "stg"
     with open(f"config_files/{env}.config.json", 'r', encoding='utf-8') as config_file:
         config_data = json.load(config_file)
 
