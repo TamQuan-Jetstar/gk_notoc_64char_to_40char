@@ -13,6 +13,7 @@ def build_notoc(logger, destination: Path, file, wrapped_output):
 
     target = destination.joinpath(filename)
 
+    # build the new notoc from the wrapped output
     with open(target, 'w', encoding='UTF-8') as notoc:
         flag_dangerous_goods = False
         flag_other_special_load = False

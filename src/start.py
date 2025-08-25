@@ -2,6 +2,7 @@ def start_notoc_conversion(config, logger, file_handling, text_handling, notoc_p
     notoc_list = file_handling.fetch_files_from_source(logger,
                                                        source=config['notoc']['source'])
 
+    # run the notoc conversion process for every file in the source directory
     for notoc in notoc_list:
         contents = text_handling.read_file(logger,
                                            file=notoc)

@@ -23,6 +23,7 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
 
     wrapped_output = list[str]()
 
+    # flags for if in the middle of a multiline parse
     flag_dangerous_goods = False
     flag_dangerous_goods_list = False
     flag_other_special_load = False
@@ -36,8 +37,10 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
                                              line=notoc_line)
             goods_info = dict()
             for line in output:
+                # if currently in a multiline parse
                 if flag_dangerous_goods or flag_other_special_load:
                     index += 1
+                    # line 4 means into the list of dangerous goods or special load
                     if index == 4:
                         if flag_dangerous_goods:
                             flag_dangerous_goods_list = True

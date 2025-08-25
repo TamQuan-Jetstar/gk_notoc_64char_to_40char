@@ -10,6 +10,7 @@ def wrap_text(logger, line):
 
         wrapped_output = wrapper.wrap(line)
 
+        # if its a line of * or -, which hence starts with these characters then don't parse these and skip
         if len(wrapped_output) > 1:
             if wrapped_output[0].startswith("*") or \
                     wrapped_output[0].startswith("-") or \
