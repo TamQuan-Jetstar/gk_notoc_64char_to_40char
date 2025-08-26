@@ -37,10 +37,10 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
                                              line=notoc_line)
             goods_info = dict()
             for line in output:
-                # if currently in a multiline parse
+                # if currently in the middle of the dangerous goods headers/special load headers then skim it as its already appended to the wrapped output 
                 if flag_dangerous_goods or flag_other_special_load:
                     index += 1
-                    # line 4 means into the list of dangerous goods or special load
+                    # after the headers, turn on the flag for the list of dangerous goods/special load
                     if index == 4:
                         if flag_dangerous_goods:
                             flag_dangerous_goods_list = True
@@ -51,6 +51,7 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
                         index = 0
                     continue
 
+                # add the whole dangerous goods headers
                 if DANGEROUS_GOODS_SECTION_NAME in line:
                     flag_dangerous_goods = True
                     wrapped_output.append(SECTION_BREAK)
@@ -63,7 +64,9 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
                 if NIL in line:
                     wrapped_output.append(NIL)
 
+                # once parsing a dangerous good and past the name of the DG
                 if flag_dangerous_goods_list and EMERGENCY_RESPONSE_CODE in line:
+                    # parse the next 2 lines of the DG information
                     for i in range(1, 3):
                         parse_dangerous_good_information(logger,
                                                          notoc_line=notoc[notoc_document_index + i],
@@ -77,13 +80,16 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
                             goods_info[POS].strip()).rjust(13)
                         goods_info[POS] = ""
 
+                    # add the emergency response code line 
                     wrapped_output.append(line)
 
+                    # add all the DG information into the output
                     for i in range(1, 4):
                         output = notoc_builder.build_dangerous_goods(logger, goods_info,
                                                                      pass_val=i)
                         wrapped_output.append(output)
-
+                
+                # add the whole special load headers
                 if OTHER_SPECIAL_LOAD_SECTION_NAME in line:
                     flag_dangerous_goods_list = False
                     flag_other_special_load = True
@@ -93,21 +99,25 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
                         wrapped_output.append(header_line)
                     wrapped_output.append(SECTION_BREAK)
                     continue
-
+                
+                # if the current line is a new special load item
                 if flag_other_special_load_list and \
                         line[0:2].isdigit() and \
                         line[2] == ".":
+                    # parse the information lines of the special load
                     for i in range(0, 2):
                         parse_other_special_load(logger,
                                                  notoc_line=notoc[notoc_document_index + i],
                                                  goods_info=goods_info,
                                                  pass_val=i)
 
+                    # build the output of the special load and append to output
                     for i in range(0, 3):
                         output = notoc_builder.build_special_goods(logger, goods_info,
                                                                    pass_val=i)
                         wrapped_output.append(output)
 
+                # reaching the emergency contact line implies that we are finished parsing special loads
                 if SI_EMERGENCY_CONTACT in line:
                     flag_other_special_load_list = False
                     wrapped_output.append(SECTION_BREAK)
