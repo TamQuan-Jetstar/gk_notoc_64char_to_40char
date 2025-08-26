@@ -1,11 +1,11 @@
 {
     "logger": {
-        "folder_location": "./.local/",
+        "folder_location": "src/.local/",
         "file_name": "notoc_integration.log"
     },
     "notoc_folder": {
-        "archive": "./.notoc/archive",
-        "source": "./.notoc/source",
-        "destination": "./.notoc/destination"
+        "archive": "src/.notoc/archive",
+        "source": "src/.notoc/source",
+        "destination": "src/.notoc/destination"
     }
 }
