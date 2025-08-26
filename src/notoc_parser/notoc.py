@@ -119,14 +119,16 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
                     # Earlier there was a "`" in this append statement.
                     wrapped_output.append(" ")
 
-                # Catches all the other lines, such as the first 4 lines with the FROM, FLIGHT, DATE, A/C REG
+                # Catches all the other lines, such as the first 4 lines with the FROM, FLIGHT, DATE, A/C REG, the name of the dangerous goods, name of special load, special instructions
                 if not flag_dangerous_goods_list or \
                         (notoc_line[0:2].isdigit() and notoc_line[2] == "."):
                     if not flag_other_special_load_list and SIGNATURE not in line:
                         wrapped_output.append(line)
+                    
             notoc_document_index += 1
     except IOError:
         logger.exception()
         return []
-
+    
     return wrapped_output
+

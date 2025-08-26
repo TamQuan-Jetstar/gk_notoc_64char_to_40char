@@ -10,12 +10,10 @@ def wrap_text(logger, line):
 
         wrapped_output = wrapper.wrap(line)
 
-        # if its a line of * or -, which hence starts with these characters then don't parse these and skip
+        # if the line is a section break, hence a line full of * or a line full of -, then return ""
         if len(wrapped_output) > 1:
-            if wrapped_output[0].startswith("*") or \
-                    wrapped_output[0].startswith("-") or \
-                    wrapped_output[1].startswith("*") or \
-                    wrapped_output[1].startswith("-"):
+            if wrapped_output[0] == '*' * 40 or \
+                wrapped_output[0] == '-' * 40:
                 return ""
 
         return wrapped_output
