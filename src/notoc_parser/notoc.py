@@ -115,13 +115,14 @@ def parse_notoc(logger, text_handling, file: Path, notoc):
                 if NO_EVIDENCE in line:
                     wrapped_output.append(SECTION_BREAK)
 
+                # Add a line break before the loading supervisor/captain signature line 
                 if LOADING_SUPERVISOR in line:
-                    # Earlier there was a "`" in this append statement.
                     wrapped_output.append(" ")
-
-                # Catches all the other lines, such as the first 4 lines with the FROM, FLIGHT, DATE, A/C REG, the name of the dangerous goods, name of special load, special instructions
+                
+                # parses everything else
+                # not flag_dangerous_goods_list is for the first 4 lines with the initial header and FROM, FLIGHT, DATE, A/C REG
                 if not flag_dangerous_goods_list or \
-                        (notoc_line[0:2].isdigit() and notoc_line[2] == "."):
+                        (notoc_line[0:2].isdigit() and notoc_line[2] == "."): # this is for all the names of dangerous goods/special load
                     if not flag_other_special_load_list and SIGNATURE not in line:
                         wrapped_output.append(line)
                     
