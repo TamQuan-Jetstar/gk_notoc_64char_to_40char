@@ -1,4 +1,4 @@
-# notoc-acars-integration
+# gk_notoc_64char_to_40char
 
 Python application to convert 64CHAR NOTOC to a ACARS Printer compatible 40CHAR NOTOC for Jetstar Japan GK.
 
