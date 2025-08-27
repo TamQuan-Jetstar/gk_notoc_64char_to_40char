@@ -9,9 +9,10 @@ def main(argv):
     # Default to running this code in production
     if len(argv) < 2:
         env = 'prd'
-    else:
-        # argument of "dev", "prd", "stg" for other environments
+    elif argv[1] in ['dev', 'prd', 'stg']:
         env = argv[1]
+    else:
+        env = 'prd'
 
     config = create_config(env)
     modules = create_modules(config)
@@ -31,5 +32,5 @@ def main(argv):
 if __name__ == "__main__":
     main(sys.argv)
 
-    # Use to test with local NAS files
-    # main(["dev"])
+    # Use to easily test with local NAS files
+    # main(["", "dev"])
