@@ -20,6 +20,7 @@ def build_notoc(logger, destination: Path, file, wrapped_output):
 
         flag_section_break = 0
 
+        # add each line of the wrapped output into the new notoc file with item breaks and line breaks
         for line in wrapped_output:
             if "SI EMERGENCY CONTACT" in line:
                 flag_other_special_load = False
