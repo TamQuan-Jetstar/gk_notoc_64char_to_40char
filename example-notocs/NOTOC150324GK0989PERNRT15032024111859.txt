@@ -1,0 +1,94 @@
+NOTOC
+SPECIAL LOAD NOTIFICATION TO CAPTAIN    EDNO 01
+FROM   FLIGHT       DATE       A/C REG
+PER    GK989/15     15MAR24    VH-VGI
+***************************************************************
+*** DANGEROUS GOODS ***
+TO  AWB      CL/DV UN/ID SUB PCS  QTY/TI RRR PCK IMP  CAO   POS
+    NR        COMP  NR   RSK             CAT GRP CODE  ULD/CODE
+---------------------------------------------------------------
+01.AMINES, LIQUID, CORROSIVE N.O.S
+EMERGENCY RESPONSE CODE 8L
+SYD          8     UN/       1    1.0L       II  RCM  N      31                                                          
+    15974803       2735                               AKH4154JQ
+ 
+02.AMINES, LIQUID, CORROSIVE N.O.S
+EMERGENCY RESPONSE CODE 8L
+SYD          8     UN/       1    0.5L       II  RCM  N      31                                                          
+    15974803       2735                               AKH4154JQ
+ 
+03.ACETONE
+EMERGENCY RESPONSE CODE 3H
+SYD          3     UN/       1    4.0L       II  RFL  N      31                                                          
+    15974803       1090                               AKH4154JQ
+ 
+04.ISOPROPANOL
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    0.125L     II  RFL  N      31                                                          
+    15974803       1219                               AKH4154JQ
+ 
+05.CORROSIVE SOLID N.O.S
+EMERGENCY RESPONSE CODE 8L
+SYD          8     UN/       1    0.144K     III RCM  N      31                                                          
+    15974803       1759                               AKH4154JQ
+ 
+06.LITHIUM ION BATTERIES PACKED WITH EQUIPMENT
+EMERGENCY RESPONSE CODE 12FZ
+SYD          9     UN/       1    3.03K          RLI  N      31                                                          
+    15974803       3481                               AKH4154JQ
+ 
+07.AMINES, SOLID, CORROSIVE N.O.S
+EMERGENCY RESPONSE CODE 8L
+SYD          8     UN/       1    0.49K      III RCM  N      31                                                          
+    15974803       3259                               AKH4154JQ
+ 
+08.CORROSIVE LIQUID N.O.S
+EMERGENCY RESPONSE CODE 8L
+SYD          8     UN/       1    3.0L       III RCM  N      31                                                          
+    15974803       1760                               AKH4154JQ
+ 
+09.CORROSIVE LIQUID N.O.S
+EMERGENCY RESPONSE CODE 8L
+SYD          8     UN/       1    4.0L       III RCM  N      31                                                          
+    15974803       1760                               AKH4154JQ
+ 
+10.AMINES, LIQUID, CORROSIVE N.O.S
+EMERGENCY RESPONSE CODE 8L
+SYD          8     UN/       3    1.0L       II  RCM  N      31                                                          
+    15974803       2735                               AKH4154JQ
+ 
+***************************************************************
+*** OTHER SPECIAL LOAD ***
+TO  CONTENTS                          PCS  QTY    IMP       POS
+    AWB NR                                       CODE  ULD/CODE
+---------------------------------------------------------------
+11. LIVE CONSUMABLE SEAFOOD MING SUN  6    90.0K  AVP        12
+SYD 03874334                                          AKH7185JQ
+ 
+12. LIVE CONSUMABLE SEAFOOD           13   195.0K AVP        12
+SYD 08589361                                          AKH7185JQ
+ 
+13. LIVE MARRON                       5    60.0K  AVP        12
+SYD 13797464                                          AKH7185JQ
+ 
+14. LIVE CONSUMABLE SEAFOOD CENTRAL   8    120.0K AVP        12
+SYD 16002442                                          AKH7185JQ
+ 
+***************************************************************
+SI EMERGENCY CONTACT +61 3 8628 3551
+01 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+02 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+03 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+04 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+05 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+06 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+07 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+08 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+09 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+10 DANGEROUS GOODS AS PER ASSOCIATED DGD - 12 PACKAGE
+***************************************************************
+THERE IS NO EVIDENCE THAT ANY DAMAGED OR LEAKING PACKAGES
+CONTAINING DANGEROUS GOODS HAVE BEEN LOADED ON THE AIRCRAFT.
+ 
+LOADING SUPERVISOR              CAPTAIN SIGNATURE
+DMEREDITH Daniel Meredith     

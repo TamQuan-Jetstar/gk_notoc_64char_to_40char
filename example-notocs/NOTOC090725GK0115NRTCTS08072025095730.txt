@@ -1,0 +1,108 @@
+NOTOC
+SPECIAL LOAD NOTIFICATION TO CAPTAIN    EDNO 01
+FROM   FLIGHT       DATE       A/C REG
+NRT    GK115/08     08JUL25    JA09JJ
+***************************************************************
+*** DANGEROUS GOODS ***
+TO  AWB      CL/DV UN/ID SUB PCS  QTY/TI RRR PCK IMP  CAO   POS
+    NR        COMP  NR   RSK             CAT GRP CODE  ULD/CODE
+---------------------------------------------------------------
+01.EXTRACTS, AROMATIC, LIQUID
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.05L    III RFL  N      41                                                          
+    50146670       1169                               AKH7156JQ
+ 
+02.BUTYL ACETATES
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.05L    III RFL  N      41                                                          
+    50146633       1123                               AKH7156JQ
+ 
+03.FLAMMABLE LIQUID N.O.S.
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.1L     III RFL  N      41                                                          
+    50146670       1993                               AKH7156JQ
+ 
+04.BUTANOLS
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.1L     III RFL  N      41                                                          
+    50146670       1120                               AKH7156JQ
+ 
+05.TERPENE HYDROCARBONS N.O.S.
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.1L     III RFL  N      41                                                          
+    50146670       2319                               AKH7156JQ
+ 
+06.ESTERS N.O.S.
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.1L     III RFL  N      41                                                          
+    50146670       3272                               AKH7156JQ
+ 
+07.HEXANOLS
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.1L     III RFL  N      41                                                          
+    50146633       2282                               AKH7156JQ
+ 
+08.KETONES, LIQUID N.O.S.
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.2L     III RFL  N      41                                                          
+    50146633       1224                               AKH7156JQ
+ 
+09.ETHERS N.O.S.
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.3L     III RFL  N      41                                                          
+    50146633       3271                               AKH7156JQ
+ 
+10.TERPENE HYDROCARBONS N.O.S.
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.3L     III RFL  N      41                                                          
+    50146633       2319                               AKH7156JQ
+ 
+11.FLAMMABLE LIQUID N.O.S.
+EMERGENCY RESPONSE CODE 3L
+SYD          3     UN/       1    1X0.5L     III RFL  N      41                                                          
+    50146633       1993                               AKH7156JQ
+ 
+12.BORNEOL
+EMERGENCY RESPONSE CODE 3L
+SYD          4.1   UN/       1    1X0.05K    III RFS  N      41                                                          
+    50146633       1312                               AKH7156JQ
+ 
+13.TOXIC LIQUID, ORGANIC N.O.S.
+EMERGENCY RESPONSE CODE 6L
+SYD          6.1   UN/       1    1X0.1L     III RPB  N      41                                                          
+    50146633       2810                               AKH7156JQ
+ 
+14.TOXIC SOLID, ORGANIC N.O.S.
+EMERGENCY RESPONSE CODE 6L
+SYD          6.1   UN/       1    1X0.2KG    III RPB  N      41                                                          
+    50146633       2811                               AKH7156JQ
+ 
+***************************************************************
+*** OTHER SPECIAL LOAD ***
+TO  CONTENTS                          PCS  QTY    IMP       POS
+    AWB NR                                        CODE ULD/CODE
+---------------------------------------------------------------
+NIL
+ 
+***************************************************************
+SI EMERGENCY CONTACT +61 3 8628 3551
+01 CONSOLIDATION
+02 CONSOLIDATION
+03 CONSOLIDATION
+04 CONSOLIDATION
+05 CONSOLIDATION
+06 CONSOLIDATION
+07 CONSOLIDATION
+08 CONSOLIDATION
+09 CONSOLIDATION
+10 CONSOLIDATION
+11 CONSOLIDATION
+12 CONSOLIDATION
+13 CONSOLIDATION
+14 CONSOLIDATION
+***************************************************************
+THERE IS NO EVIDENCE THAT ANY DAMAGED OR LEAKING PACKAGES
+CONTAINING DANGEROUS GOODS HAVE BEEN LOADED ON THE AIRCRAFT.
+ 
+LOADING SUPERVISOR              CAPTAIN SIGNATURE
+KELLIELH Kellie Lamaison LH   
