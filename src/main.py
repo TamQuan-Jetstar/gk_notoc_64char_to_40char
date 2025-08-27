@@ -30,3 +30,6 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv)
+
+    # Use to test with local NAS files
+    # main(["dev"])
