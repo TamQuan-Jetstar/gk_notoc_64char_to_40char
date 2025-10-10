@@ -1,11 +1,11 @@
 {
     "logger": {
-        "folder_location": "\\\\corp.jetstar.com\\operations$\\OPSDATA\\GK_NOTOC_File\\Logs",
+        "folder_location": "\\\\corp\\operations$\\OPSDATA\\FIRSTLOAD_GK\\NOTOC_Logger\\TEST",
         "file_name": "notoc_integration.log"
     },
     "notoc_folder": {
-        "archive": "\\\\corp.jetstar.com\\operations$\\OPSDATA\\GK_NOTOC_File\\Archive",
-        "source": "\\\\corp\\operations$\\OPSDATA\\FIRSTLOAD\\GK_NOTOC_ACARS_64CHAR",
-        "destination": "\\\\corp.jetstar.com\\operations$\\OPSDATA\\GK_NOTOC_File\\TEST"
+        "archive": "\\\\corp\\operations$\\OPSDATA\\FIRSTLOAD_GK\\NOTOC_Archived\\TEST",
+        "source": "\\\\corp\\operations$\\OPSDATA\\FIRSTLOAD_GK\\NOTOC_File\\TEST",
+        "destination": "\\\\corp\\operations$\\OPSDATA\\FIRSTLOAD_GK\\NOTOC_Parsed_File\\TEST"
     }
 }
