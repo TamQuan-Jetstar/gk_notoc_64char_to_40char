@@ -1,7 +1,6 @@
 {
     "logger": {
-        "folder_location": "\\\\corp\\operations$\\OPSDATA\\FIRSTLOAD_GK\\NOTOC_Logger\\TEST",
-        "file_name": "notoc_integration.log"
+        "folder_location": "\\\\corp\\operations$\\OPSDATA\\FIRSTLOAD_GK\\NOTOC_Logger\\TEST"
     },
     "notoc_folder": {
         "archive": "\\\\corp\\operations$\\OPSDATA\\FIRSTLOAD_GK\\NOTOC_Archived\\TEST",

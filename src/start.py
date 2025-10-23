@@ -1,7 +1,12 @@
 def start_notoc_conversion(config, logger, file_handling, text_handling, notoc_parser, notoc_builder):
     notoc_list = file_handling.fetch_files_from_source(logger,
                                                        source=config['notoc']['source'])
-
+    
+    if len(notoc_list) == 0: # if there are no NOTOCS 
+        logger.info("No NOTOC files found in source directory.")
+    else:
+        logger.info(f"{len(notoc_list)} NOTOC files were found")
+        
     # run the notoc conversion process for every file in the source directory
     if notoc_list is not None:
         for notoc in notoc_list:

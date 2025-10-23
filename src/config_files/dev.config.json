@@ -1,11 +1,10 @@
 {
     "logger": {
-        "folder_location": "src/.local/",
-        "file_name": "notoc_integration.log"
+        "folder_location": "C:\\Users\\tamquan\\Desktop\\parser\\log"
     },
     "notoc_folder": {
-        "archive": "src/.notoc/archive",
-        "source": "src/.notoc/source",
-        "destination": "src/.notoc/destination"
+        "archive": "C:\\Users\\tamquan\\Desktop\\parser\\archive",
+        "source": "C:\\Users\\tamquan\\Desktop\\parser\\source",
+        "destination": "C:\\Users\\tamquan\\Desktop\\parser\\destination"
     }
 }

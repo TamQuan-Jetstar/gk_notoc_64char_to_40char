@@ -6,8 +6,9 @@ import notoc_builder
 
 
 def create_modules(config):
+    
     logger = LoggerSingleton(log_folder=config['logger']['log_folder'],
-                             log_filename=config['logger']['log_filename'])
+                             log_filename=config['logger']['log_filename'],)
 
     modules = {}
     modules['logger'] = logger

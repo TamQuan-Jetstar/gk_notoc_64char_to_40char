@@ -9,7 +9,7 @@ def main(argv):
     # Default to running this code in production
     if len(argv) < 2:
         env = 'prd'
-    elif argv[1] in ['dev', 'prd', 'stg']:
+    elif argv[1] in ['dev', 'prd', 'test']:
         env = argv[1]
     else:
         env = 'prd'
@@ -28,9 +28,7 @@ def main(argv):
                            notoc_parser=modules['notoc_parser'],
                            notoc_builder=modules['notoc_builder'])
 
+    logger.info("Completed Notoc Integration")
 
 if __name__ == "__main__":
     main(sys.argv)
-
-    # Use to easily test with local NAS files
-    # main(["", "dev"])

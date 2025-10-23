@@ -17,3 +17,7 @@ Transformed 40CHAR and untransformed 64CHAR NOTOC Messages are archived in
 ```
 \\corp\operations$\OPSDATA\FIRSTLOAD_GK\NOTOC_Archived\PROD
 ```
+
+
+Dev Information:
+Converted to exe with py2exe.com then moved the config_files folder into the _internal folder 
