@@ -1,15 +1,38 @@
 from pathlib import Path
 import shutil
-
+import datetime
+import os
+import math
 
 def move_file_to_archive(logger, archive: Path, file: Path):
     logger.info(f"Moving {file.name} to {archive} folder")
 
     try:
+         
+        timestamp = datetime.datetime.now()
+        year = timestamp.year
+        month = timestamp.month
+        day = timestamp.day
+
+        archiveExtStr = f"{str(archive)}\\{str(year)}\\{str(month)}\\{day}"
+        targetPath = Path(archiveExtStr)
         # Ensure the archive folder exists, create it if necessary
-        archive.mkdir(parents=True, exist_ok=True)
+        targetPath.mkdir(parents=True, exist_ok=True)
+
+        # Deals with the rare scenario that there is a matching filename already in archive
+        counter = 1
+        if os.path.exists(Path(archiveExtStr + f"\\{file.name}")):
+            counter += 1
+            while os.path.exists(Path(archiveExtStr + f"\\{file.stem}_{counter}.txt")):
+                counter += 1
+            targetPath = Path(archiveExtStr + f"\\{file.stem}_{counter}.txt")
+        else:
+            # there is no duplicate and attach the base file name
+            targetPath = Path(archiveExtStr + f"\\{file.name}")
+            
         # shutil.move to move the file to the archive folder
-        shutil.move(str(file), str(archive.joinpath(file.name)))
+        shutil.move(str(file), str(targetPath)) 
+
     except TypeError:
         logger.exception('Invalid archive or file path.')
     except PermissionError:

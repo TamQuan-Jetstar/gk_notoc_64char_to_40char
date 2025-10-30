@@ -23,7 +23,7 @@ def create_config(env: str):
     second = timestamp.second
 
     logger = {}
-    logger['log_folder'] = Path(config_data['logger']['folder_location'] + f"\\YEAR_{year}\\MONTH_{month}\\DAY_{day}\\HOUR_{hour}")
+    logger['log_folder'] = Path(config_data['logger']['folder_location'] + f"\\{year}\\MONTH_{month}\\DAY_{day}\\HOUR_{hour}")
     logger['log_filename'] = f"GK_NOTOC_LOGS_MIN_{minute}_SECOND_{second}"
 
     notoc = {}
