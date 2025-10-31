@@ -19,12 +19,10 @@ def create_config(env: str):
     month = timestamp.month
     day = timestamp.day
     hour = timestamp.hour
-    minute = timestamp.minute
-    second = timestamp.second
 
     logger = {}
-    logger['log_folder'] = Path(config_data['logger']['folder_location'] + f"\\{year}\\MONTH_{month}\\DAY_{day}\\HOUR_{hour}")
-    logger['log_filename'] = f"GK_NOTOC_LOGS_MIN_{minute}_SECOND_{second}"
+    logger['log_folder'] = Path(config_data['logger']['folder_location'] + f"\\{year}\\MONTH_{month}\\DAY_{day}")
+    logger['log_filename'] = f"GK_NOTOC_LOGS_HOUR_{hour}.log"
 
     notoc = {}
     notoc['archive'] = Path(config_data['notoc_folder']['archive'])

@@ -26,3 +26,5 @@ def start_notoc_conversion(config, logger, file_handling, text_handling, notoc_p
             file_handling.move_file_to_archive(logger,
                                             archive=config['notoc']['archive'],
                                             file=notoc)
+            
+            logger.info(f"Finished {notoc.name}\n\n")
