@@ -28,7 +28,7 @@ def main(argv):
                            notoc_parser=modules['notoc_parser'],
                            notoc_builder=modules['notoc_builder'])
 
-    logger.info("Completed Notoc Integration")
+    logger.info("Completed Notoc Integration\n\n\n\n")
 
 if __name__ == "__main__":
     main(sys.argv)
